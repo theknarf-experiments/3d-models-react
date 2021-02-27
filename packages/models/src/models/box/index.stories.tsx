@@ -1,11 +1,12 @@
 import React from 'react';
 import Preview from '../../components/preview';
+import { Story } from '@storybook/react';
 import Box from './index';
 
 export default {
 	title: 'models/box',
 	decorators: [
-		(Story) => <Preview><Story /></Preview>
+		(Story : Story) => <Preview><Story /></Preview>
 	],
 };
 

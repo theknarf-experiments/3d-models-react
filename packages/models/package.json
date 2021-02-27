@@ -10,6 +10,7 @@
     "build:storybook": "build-storybook -s public"
   },
   "dependencies": {
+    "modeler-csg": "^1.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-three-fiber": "^5.3.19",

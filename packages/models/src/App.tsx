@@ -1,6 +1,7 @@
 import React from 'react';
 import { Canvas } from 'react-three-fiber';
 import Box from './models/box';
+import BoxSphere from './models/boxsphere';
 
 const App : React.FC = () => {
 	return <div>
@@ -10,6 +11,7 @@ const App : React.FC = () => {
 			<pointLight position={[10, 10, 10]} />
 			<Box position={[-1.2, 0, 0]} />
 			<Box position={[1.2, 0, 0]} />
+			<BoxSphere />
 		</Canvas>
 	</div>
 };
